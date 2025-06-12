@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+      width: 30px;
+    }
+  }
+  .input {
+    width: 40vw;
+    padding: 15px 20px;
+    background-color: #10756e77;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    input {
+      color: inherit;
+      width: 100%;
+      font-size: 16px;
+      background-color: transparent;
+      border: none;
+      outline: none;
+    }
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    img {
+      width: 50px;
+      height: 50px;
+      background-color: #fff;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+}

@@ -1,0 +1,58 @@
+main {
+  display: flex;
+  gap: 40px;
+}
+
+.dashboards {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .navList {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    li {
+      background-color: #10756e77;
+      padding: 15px 30px;
+      border-radius: 30px;
+    }
+    .active {
+      background-color: #00fdedaa;
+    }
+  }
+}
+
+.flow {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #10756e77;
+  padding: 15px 30px;
+  border-radius: 30px;
+  gap: 30px;
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+      font-weight: 500;
+    }
+  }
+  .chart {
+    display: flex;
+    gap: 15px;
+    li {
+      text-align: center;
+      .chartHeight {
+        background-color: rgb(160, 108, 228);
+        width: 60px;
+        height: 100px;
+        border-radius: 20px;
+      }
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+}
