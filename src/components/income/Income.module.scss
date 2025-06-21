@@ -1,0 +1,27 @@
+.income {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  background-color: #10756e77;
+  padding: 15px 30px;
+  border-radius: 30px;
+  .price {
+    font-size: 28px;
+    font-weight: 600;
+  }
+  .wrap {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    > span {
+      font-size: 12px;
+    }
+    .percent {
+      padding: 8px 12px;
+      background-color: #0bfcecb3;
+      border-radius: 30px;
+      font-size: 14px;
+    }
+  }
+}

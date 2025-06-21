@@ -1,9 +1,15 @@
+import { ReactNode } from "react";
 import styles from "./Heading.module.scss";
 
 interface Props {
-  title: string;
+  children: ReactNode;
+  size?: string;
 }
 
-export const Heading = ({ title }: Props) => {
-  return <h1 className={styles.title}>{title}</h1>;
+export const Heading = ({ children, size = "36px" }: Props) => {
+  return (
+    <h1 className={styles.title} style={{ fontSize: `${size}` }}>
+      {children}
+    </h1>
+  );
 };

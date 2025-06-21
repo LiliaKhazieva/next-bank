@@ -1,0 +1,16 @@
+.dashboardNav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  li {
+    background-color: #10756e77;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+  }
+
+  .active {
+    background-color: #00fdedaa;
+  }
+}

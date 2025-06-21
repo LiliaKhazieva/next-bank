@@ -1,20 +1,15 @@
-import React from "react";
 import styles from "./Header.module.scss";
+import { Search } from "../ui/search/Search";
+import { Landmark } from "lucide-react";
 
-type Props = {};
-
-export const Header = (props: Props) => {
+export const Header = () => {
   return (
     <header className={`container ${styles.header}`}>
       <a href="/">
-        <img src="logo.svg" alt="logo" />
+        <Landmark />
         <span>NextBank</span>
       </a>
-      <div className={styles.input}>
-        <img src="search.svg" alt="search" width={20} />
-        <input type="search" placeholder="Search payment" />
-      </div>
-
+      <Search />
       <div className={styles.content}>
         <span>Hi Lilian</span>
         <img

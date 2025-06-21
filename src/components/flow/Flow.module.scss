@@ -1,0 +1,46 @@
+.flow {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #10756e77;
+  padding: 15px 20px;
+  border-radius: 30px;
+  gap: 10px;
+
+  .chartWrapper {
+    display: flex;
+    align-items: end;
+    gap: 15px;
+    .scale {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      font-size: 12px;
+    }
+    .chart {
+      width: 100%;
+      display: flex;
+      align-items: end;
+      gap: 15px;
+      li {
+        text-align: center;
+        width: 20%;
+        .chartHeight {
+          background: repeating-linear-gradient(
+            30deg,
+            #15666177,
+            #15666177 3px,
+            #bf7df2 6px
+          );
+          border-radius: 20px;
+        }
+        span {
+          font-size: 12px;
+        }
+        .active {
+          background: #885ffb;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.available {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #10756e77;
+  padding: 15px 20px;
+  border-radius: 30px;
+  gap: 30px;
+  .availableChart {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    .donut {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background: conic-gradient(#fff 20%, #bf7df2 0 40%, #00fdedaa 0);
+    }
+    .donutMask {
+      padding: 30px;
+      background: conic-gradient(#fff 20%, #bf7df2 0 40%, #00fdedaa 0);
+      mask: linear-gradient(#ffffff 0 0) content-box,
+        linear-gradient(#ffffff 0 0);
+      mask-composite: exclude;
+    }
+    .list {
+      font-size: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      .itemWrapper {
+        display: flex;
+        gap: 10px;
+
+        align-items: center;
+        .circle {
+          width: 10px;
+          height: 10px;
+          background-color: #bf7df2;
+          border-radius: 50%;
+        }
+        .item {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

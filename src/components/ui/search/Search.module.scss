@@ -1,0 +1,27 @@
+.searchWrap {
+  max-width: 500px;
+  width: 100%;
+  @media (max-width: 900px) {
+    display: none;
+  }
+  input {
+    width: 100%;
+    font-size: 16px;
+    background-color: #10756e77;
+    background-image: url("../../../../public/search.svg");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding: 10px 10px 10px 45px;
+    border-radius: 30px;
+    background-position: 15px center;
+    color: inherit;
+    border: none;
+    outline: none;
+    &:focus {
+      background-color: #27a9a077;
+    }
+    &::placeholder {
+      color: rgb(161, 167, 167);
+    }
+  }
+}

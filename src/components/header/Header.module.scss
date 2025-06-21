@@ -2,30 +2,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  height: 8vh;
+  @media (max-width: 600px) {
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
   a {
     display: flex;
     align-items: center;
     gap: 10px;
     img {
-      width: 30px;
-    }
-  }
-  .input {
-    width: 40vw;
-    padding: 15px 20px;
-    background-color: #10756e77;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    input {
-      color: inherit;
-      width: 100%;
-      font-size: 16px;
-      background-color: transparent;
-      border: none;
-      outline: none;
+      max-width: 30px;
     }
   }
   .content {
@@ -40,6 +29,10 @@
       border-radius: 50%;
       object-fit: cover;
       object-position: top;
+      @media (max-width: 600px) {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }
