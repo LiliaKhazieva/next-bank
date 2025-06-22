@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/next-bank/static/css/main.79df9134.css",
+    "main.css": "/next-bank/static/css/main.97325bfd.css",
     "main.js": "/next-bank/static/js/main.974dbeb5.js",
     "index.html": "/next-bank/index.html",
     "static/media/search.svg": "/next-bank/static/media/search.7e93d0ab08b0387d9891.svg",
-    "main.79df9134.css.map": "/next-bank/static/css/main.79df9134.css.map",
+    "main.97325bfd.css.map": "/next-bank/static/css/main.97325bfd.css.map",
     "main.974dbeb5.js.map": "/next-bank/static/js/main.974dbeb5.js.map"
   },
   "entrypoints": [
-    "static/css/main.79df9134.css",
+    "static/css/main.97325bfd.css",
     "static/js/main.974dbeb5.js"
   ]
 }
